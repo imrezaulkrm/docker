@@ -43,22 +43,24 @@ Before you begin, make sure you have Docker installed. You can download it from 
 
 2. Build the Docker image using the provided Dockerfile:
 
-	docker build -t my-ubuntu-image .
+	```sh
+ 	docker build -t my-ubuntu-image .
 
 ## Usage
 
 ### Running a Container
 
 To run a container based on the Ubuntu Docker image you built, use the following command:
-docker run -it my-ubuntu-image
+
+	docker run -it my-ubuntu-image
 This command will start an interactive shell session within the container. You can exit the container by typing exit.
 
 ## Customization
 
 1.Installing Packages: Inside the Dockerfile, you can use RUN commands to install packages using apt. For example 
 RUN 
-   sh
-   apt update && apt install -y <package-name>
+
+   	apt update && apt install -y <package-name>
 
 2.Configuration: Customize the environment by adding configuration files or scripts to the Dockerfile.
 
