@@ -56,7 +56,9 @@ This command will start an interactive shell session within the container. You c
 ## Customization
 
 1.Installing Packages: Inside the Dockerfile, you can use RUN commands to install packages using apt. For example 
-RUN apt update && apt install -y <package-name>
+RUN 
+   sh
+   apt update && apt install -y <package-name>
 
 2.Configuration: Customize the environment by adding configuration files or scripts to the Dockerfile.
 
