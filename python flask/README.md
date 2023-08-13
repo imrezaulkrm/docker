@@ -7,7 +7,6 @@ This repository contains a simple Flask application that has been Dockerized for
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Prerequisites
@@ -28,7 +27,6 @@ To get a local copy of this project up and running, follow these steps:
    ```
    cd your-repo-name
 
-
 ## Usage
 
 1. Build the Docker image:
@@ -37,11 +35,11 @@ To get a local copy of this project up and running, follow these steps:
 	docker build -t flask-docker .
 
 2. Run a container from the image:
-	
+    ```
 	docker run -p 5000:5000 flask-docker
 
 3. Access the Flask app in your web browser or using tools like curl:
-
+	```
 	http://localhost:5000
 
 4. To stop the running container, use Ctrl+C in the terminal.
