@@ -47,7 +47,3 @@ To get a local copy of this project up and running, follow these steps:
 ## License
 
 This project is licensed under the MIT License.
-
-Replace the placeholders (`your-username`, `your-repo-name`, etc.) with your actual GitHub username and repository name.
-
-Feel free to customize this `README.md` template to suit your specific project, add more information, and provide details about the features of your Flask app and how to use it.
