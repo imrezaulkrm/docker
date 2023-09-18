@@ -1,0 +1,4 @@
+workflow-aggregator:2.6
+git:4.6.0
+docker-plugin:1.2.5
+
